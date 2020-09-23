@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qss/style.qss</file>
+        <file>image/start.png</file>
+        <file>image/stop.png</file>
+        <file>fshader.glsl</file>
+        <file>vshader.glsl</file>
+        <file>shader.f</file>
+        <file>shader.v</file>
+        <file>image/red.png</file>
+        <file>image/green.png</file>
+        <file>image/reset.png</file>
+        <file>image/adjust.png</file>
+        <file>image/lrotate.png</file>
+        <file>image/rrotate.png</file>
+        <file>image/auto.png</file>
+        <file>image/hand.png</file>
+    </qresource>
+</RCC>

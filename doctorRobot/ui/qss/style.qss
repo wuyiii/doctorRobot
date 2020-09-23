@@ -1,0 +1,82 @@
+MainWindow{
+    background: qradialgradient(cx:0.5, cy:0.5, radius: 1.5,
+        fx:0.5, fy:0.5, stop:0 rgb(100,100,100), stop:1 rgb(50,50,50));
+}
+
+ControlWidget{
+    border: 1px solid rgb(60,60,60);
+}
+
+QLabel#date{
+    color: white;
+    font: 18px "consolas";
+}
+
+QLabel#hint{
+    color: white;
+    font: 18px "Microsoft YaHei";
+}
+
+QLabel#status_label{
+    color: white;
+    font: 25px "Microsoft YaHei";
+}
+
+QLabel#status_text{
+    border-radius: 10px;
+    background-color: qlineargradient(x1:0.5, y1:0.0, x2:0.5, y2:1.0,
+            stop:0 rgb(255,255,255), stop:1 rgb(200,200,200));
+    color: red;
+    font:  30px "Microsoft YaHei";
+}
+
+QToolButton{
+    border-radius: 15px;
+    background-color: qlineargradient(x1:0.5, y1:0.0, x2:0.5, y2:1.0,
+                stop:0 rgb(60,60,60), stop:1 rgb(40,40,40));
+
+    color: white;
+    font: 16px "Microsoft YaHei";
+}
+
+QToolButton:hover{
+    background-color: qlineargradient(x1:0.5, y1:0.0, x2:0.5, y2:1.0,
+            stop:0 rgb(40,40,40), stop:1 rgb(60,60,60));
+}
+
+.QFrame{
+    color: rgb(60,60,60);
+}
+
+SideWidget > QPushButton{
+    border-radius: 0px;
+    background-color: rgb(60,60,60);
+    color: white;
+    font: 16px "Microsoft YaHei";
+}
+
+SideWidget > QPushButton:checked{
+    border-radius: 0px;
+    background-color: rgb(40,40,40);
+    color: white;
+    font: 18px "Microsoft YaHei";
+}
+
+InfoRegion > QLabel{
+    color: white;
+    font: 16px "Microsoft YaHei";
+}
+
+RenderRegion > QPushButton{
+    border-radius: 0px;
+    background-color: rgba(60,60,60,50%);
+    color: white;
+    font: 15px "Microsoft YaHei";
+}
+
+RenderRegion > QPushButton:pressed {
+    border-radius: 0px;
+    background-color: rgba(40,40,40,50%);
+    color: white;
+    font: 15px "Microsoft YaHei";
+}
